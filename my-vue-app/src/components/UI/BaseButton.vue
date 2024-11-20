@@ -1,6 +1,6 @@
 <template>
   <button>
-    <slot></slot>
+    <slot>click me</slot>
   </button>
 </template>
 
