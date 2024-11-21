@@ -12,15 +12,7 @@ describe('<BaseButton />', () => {
     expect(wrapper.text()).toBe('base button content');
   });
 
-  // it('it should apply the active class to component when button is clicked', async () => {
-  //   const wrapper = mount(BaseButton);
-
-  //   const button = wrapper.find('button');
-  //   await button.trigger('click'); // Trigger a click event
-  //   expect(button.classes()).toContain('active'); // Ensure the button gets the 'active' class
-  // });
-
-  it('should render default slot in base button inside button element', async () => {
+  it('should render default slot in base button inside button element', () => {
     const wrapper = mount(BaseButton, {
       slots: {
         default: 'submit me',

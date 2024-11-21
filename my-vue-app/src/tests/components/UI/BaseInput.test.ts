@@ -23,7 +23,7 @@ describe('<BaseInput />', () => {
     expect(input.element.value).toBe('77');
   })
 
-  it('it should sets the correct input type', () => {
+  it('should sets the correct input type', () => {
     const wrapper = mount(BaseInput, {
       props: {
         searchTerm: 100,
